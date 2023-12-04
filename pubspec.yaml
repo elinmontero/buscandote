@@ -1,0 +1,39 @@
+name: buscandote
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  image_cropper: ^5.0.0
+  image_picker: ^1.0.4
+  intl: ^0.18.1
+  path: ^1.8.3
+  sqflite: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/images/desaparecidos.jpg
+  - assets/images/logoApp.jpg
+  - assets/images/logoApp1.png
+  - assets/images/redcross.png
+  - assets/images/interpol.png
+  - assets/images/acnur.jpg
+  - assets/images/logopn.jpg
+  - assets/images/icmec.jpg
+  - assets/images/persona.png
+  - assets/images/logoApp2.jpg
+  - assets/images/logoitla.jpg
+ 
+  
